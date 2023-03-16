@@ -32,13 +32,17 @@ Huffman coding is a lossless data compression algorithm that assigns variable-le
 2. Open the directory in terminal.
 3. Run command **make**.
 
+```
+$ make
+```
+
 
 ## Run
 
 ### For encode:
 
 ```
-./encode [-h] [-i infile] [-o outfile]
+$ ./encode [-h] [-i infile] [-o outfile]
 ```
 
 - `-h`: Shows help and usage
@@ -49,13 +53,19 @@ Huffman coding is a lossless data compression algorithm that assigns variable-le
 ### For decode:
 
 ```
-./decode [-h] [-i infile] [-o outfile] 
+$ ./decode [-h] [-i infile] [-o outfile] 
 ```
 
 - `-h`: Shows help and usage
 - `-i infile`: Input containing graph (default: stdin)
 - `-o outfile`: Output of computed path (default: stdout)
 - `-v`: Enable verbose printing.
+
+### For cleaning:
+
+```
+$ make clean
+```
 
 
 # Note 
