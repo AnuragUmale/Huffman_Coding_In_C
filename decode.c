@@ -102,4 +102,5 @@ int main(int argc, char **argv){
   delete_tree(&root);
   close(infile);
   close(outfile);
+  return 0;
 }
