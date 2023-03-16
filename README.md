@@ -24,7 +24,7 @@ Huffman coding is a lossless data compression algorithm that assigns variable-le
 18. decode.c
 
 
-## Build and run encode.c and decode.c with help of  node.c, stack.c, pq.c, code.c, io.c, and huffman.c 
+## Build 
 
 ### Steps:
 
@@ -32,7 +32,10 @@ Huffman coding is a lossless data compression algorithm that assigns variable-le
 2. Open the directory in terminal.
 3. Run command **make**.
 
-# For encode:
+
+## Run
+
+### For encode:
 
 ```
 ./encode [-h] [-i infile] [-o outfile]
@@ -43,7 +46,7 @@ Huffman coding is a lossless data compression algorithm that assigns variable-le
 - `-o outfile`: Output of computed path (default: stdout)
 - `-v`: Enable verbose printing.
 
-# For decode:
+### For decode:
 
 ```
 ./decode [-h] [-i infile] [-o outfile] 
